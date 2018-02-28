@@ -1,0 +1,8 @@
+#Write a program (function!) that takes a list and returns a new list that contains all the elements of the first list minus all the duplicates.
+def newset(a):
+  b = set(a)
+  return list(b)
+
+b1 = [1,2,3,4,1,2,4,2,1,1,5,1,2,4,1,2,5,5,2,6,7,3,6,8,7,3,4,7,2]  
+
+print(newset(b1))
