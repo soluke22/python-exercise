@@ -3,5 +3,6 @@ import random
 
 pass_chars= "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
 pass_len = int(input("How long do you want your password to be?:"))
-pass = "".join(random.sample(pass_chars,pass_len))
-print(pass)
+p =  "".join(random.sample(pass_chars,int(pass_len)))
+
+print(p)
